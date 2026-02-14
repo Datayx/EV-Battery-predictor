@@ -29,8 +29,10 @@ Unlike simple regression models, this solution utilizes **Deep Learning (PyTorch
 
 ## Limitations and Improvements
 
-Current Approach: The model utilizes avg_voltage and time_to_discharge as proxies for internal resistance changes.
-Limitation: It does not integrate direct Electrochemical Impedance Spectroscopy (EIS) data. Therefore, degradation modes like anode/cathode active material loss are inferred via capacity fade rather than measured directly through impedance growth (R_internal).
+*Current Approach: The model utilizes avg_voltage and time_to_discharge as proxies for internal resistance changes.
+*Limitation: It does not integrate direct Electrochemical Impedance Spectroscopy (EIS) data. Therefore, degradation modes like anode/cathode active material loss are inferred via capacity fade rather than measured directly through impedance growth (R_internal).
+
+*Develop a secondary classification model to detect thermal runaway precursors (e.g., rapid temperature spikes combined with voltage sag) to predict safety risks alongside SOH.
 
 ## Getting Started
 
