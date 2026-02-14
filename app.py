@@ -5,7 +5,9 @@ import matplotlib.pyplot as plt
 import os
 from src.models.architecture import LSTMRegressor
 from src.utils.config import TrainConfig
-
+import sys
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(current_dir)
 # 1. Page Configuration
 st.set_page_config(page_title="EV Battery SOH Predictor", layout="wide")
 st.title("🔋 EV Battery Health (SOH) Predictor")
