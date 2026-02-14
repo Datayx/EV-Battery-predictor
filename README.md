@@ -27,6 +27,11 @@ Unlike simple regression models, this solution utilizes **Deep Learning (PyTorch
 * **Frontend:** Dash (Plotly).
 * **Containerization:** Docker.
 
+## Limitations and Improvements
+
+Current Approach: The model utilizes avg_voltage and time_to_discharge as proxies for internal resistance changes.
+Limitation: It does not integrate direct Electrochemical Impedance Spectroscopy (EIS) data. Therefore, degradation modes like anode/cathode active material loss are inferred via capacity fade rather than measured directly through impedance growth (R_internal).
+
 ## Getting Started
 
 1.  Clone the repo.
