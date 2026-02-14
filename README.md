@@ -22,10 +22,10 @@ Unlike simple regression models, this solution utilizes **Deep Learning (PyTorch
 * **Core:** Python 3.9+
 * **Deep Learning:** PyTorch (v2.0+)
 * **Data Source:** NASA PCoE Li-ion Battery Dataset.
-* **Database:** PostgreSQL.
-* **Backend:** FastAPI.
-* **Frontend:** Dash (Plotly).
+* **Frontend:** Streamlit
 * **Containerization:** Docker.
+* **Visualisation:** Matplotlib.
+* * **Data Processing:** Pandas, NumPy, PyArrow
 
 ## Limitations and Improvements
 
