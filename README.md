@@ -1,5 +1,6 @@
 # EV Battery Degradation Predictor 
 
+Load the Battery Feature parquet file:
 https://ev-battery-predictor-kkbexxj9qfkxcwdbrbb3wn.streamlit.app/
 
 ## Project Overview
