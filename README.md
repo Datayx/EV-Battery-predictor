@@ -1,4 +1,6 @@
-# EV Battery Degradation Predictor (PyTorch Edition)
+# EV Battery Degradation Predictor 
+
+https://ev-battery-predictor-kkbexxj9qfkxcwdbrbb3wn.streamlit.app/
 
 ## Project Overview
 
